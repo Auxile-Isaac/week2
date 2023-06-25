@@ -1,62 +1,104 @@
 * {
     margin: 0;
-    background-color: #1f2937;
-    color: white;
-}
-
-.header {
+    padding: 0;
+  }
+  
+  .header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin: 20px;
-}
-
-.header-list {
+    height: 50px;
+    /* margin: 20px; */
+    color: #fff;
+  }
+  
+  .header-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.main {
-    margin: 20px;
-    margin-top: 150px;
+    width: 250px;
+    color: #fff;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    background-color: #1f2937;
+    padding: 20px;
+    height: 450px;
     display: flex;
-    justify-content: space-between;
-}
-
-.main-words {
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+  }
+  
+  .main-words {
     margin-right: 10px;
-}
-
-.main-image {
+    color: #fff;
+  }
+  
+  .main-image {
     border-radius: 15px;
-}
-
-button {
+  }
+  
+  /* button {
     all: unset;
-}
-
-.signUp-button {
+  } */
+  
+  .signUp-button {
     background-color: #3382f8;
     padding: 5px;
     border-radius: 15px;
     margin-top: 30px;
-}
-
-.main-about {
-    background-color: white;
-}
-
-footer {
-    background-color: red;
-}
-
-.footer {
-    justify-content: end;
-    align-self: center;
-    padding: 20px;
-    /* width: 100%; */
-    /* justify-content: center; */
-    /* align-items: center */
-}
+    color: #fff;
+    border-width: 0;
+  }
+  
+  .main-about li {
+    width: 10px;
+    background-color: #000;
+    color: #000;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .call-action {
+    background-color: #3882f6;
+    padding: 40px 0px;
+    margin: 70px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .call-action button {
+    background-color: #3882f6;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  
+  .call-action div {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #fff;
+  }
+  
